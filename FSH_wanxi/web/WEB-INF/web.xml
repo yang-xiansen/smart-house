@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+
+    <servlet>
+        <servlet-name>Type</servlet-name>
+        <servlet-class>com.ict.servlet.Type</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Type</servlet-name>
+        <url-pattern>/Type.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetTime</servlet-name>
+        <servlet-class>com.ict.servlet.SetTime</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetTime</servlet-name>
+        <url-pattern>/SetTime.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Switch</servlet-name>
+        <servlet-class>com.ict.servlet.Switch</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Switch</servlet-name>
+        <url-pattern>/Switch.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteTime</servlet-name>
+        <servlet-class>com.ict.servlet.DeleteTime</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteTime</servlet-name>
+        <url-pattern>/DeleteTime.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DelDevTime</servlet-name>
+        <servlet-class>com.ict.servlet.DelDevTime</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DelDevTime</servlet-name>
+        <url-pattern>/DelDevTime.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetTimeInfo</servlet-name>
+        <servlet-class>com.ict.servlet.GetTimeInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetTimeInfo</servlet-name>
+        <url-pattern>/GetTimeInfo.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Auto</servlet-name>
+        <servlet-class>com.ict.servlet.Auto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Auto</servlet-name>
+        <url-pattern>/Auto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetDataAuto</servlet-name>
+        <servlet-class>com.ict.servlet.GetDataAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetDataAuto</servlet-name>
+        <url-pattern>/GetDataAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetEventAuto</servlet-name>
+        <servlet-class>com.ict.servlet.GetEventAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetEventAuto</servlet-name>
+        <url-pattern>/GetEventAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DelAuto</servlet-name>
+        <servlet-class>com.ict.servlet.DelAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DelAuto</servlet-name>
+        <url-pattern>/DelAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DelEventAuto</servlet-name>
+        <servlet-class>com.ict.servlet.DelEventAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DelEventAuto</servlet-name>
+        <url-pattern>/DelEventAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetFanAuto</servlet-name>
+        <servlet-class>com.ict.servlet.SetFanAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetFanAuto</servlet-name>
+        <url-pattern>/SetFanAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetCurtainAuto</servlet-name>
+        <servlet-class>com.ict.servlet.SetCurtainAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCurtainAuto</servlet-name>
+        <url-pattern>/SetCurtainAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetTVAuto</servlet-name>
+        <servlet-class>com.ict.servlet.SetTVAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetTVAuto</servlet-name>
+        <url-pattern>/SetTVAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetDoorLightAuto</servlet-name>
+        <servlet-class>com.ict.servlet.SetDoorLightAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetDoorLightAuto</servlet-name>
+        <url-pattern>/SetDoorLightAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetDoorAuto</servlet-name>
+        <servlet-class>com.ict.servlet.SetDoorAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetDoorAuto</servlet-name>
+        <url-pattern>/SetDoorAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetAirAuto</servlet-name>
+        <servlet-class>com.ict.servlet.SetAirAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetAirAuto</servlet-name>
+        <url-pattern>/SetAirAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetSGAuto</servlet-name>
+        <servlet-class>com.ict.servlet.SetSGAuto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetSGAuto</servlet-name>
+        <url-pattern>/SetSGAuto.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetColorLed</servlet-name>
+        <servlet-class>com.ict.servlet.GetColorLed</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetColorLed</servlet-name>
+        <url-pattern>/GetColorLed.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetLed</servlet-name>
+        <servlet-class>com.ict.servlet.SetLed</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetLed</servlet-name>
+        <url-pattern>/SetLed.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetColorLed</servlet-name>
+        <servlet-class>com.ict.servlet.SetColorLed</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetColorLed</servlet-name>
+        <url-pattern>/SetColorLed.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetLed</servlet-name>
+        <servlet-class>com.ict.servlet.GetLed</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetLed</servlet-name>
+        <url-pattern>/GetLed.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetSRSAlert</servlet-name>
+        <servlet-class>com.ict.servlet.GetSRSAlert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetSRSAlert</servlet-name>
+        <url-pattern>/GetSRSAlert.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetName</servlet-name>
+        <servlet-class>com.ict.servlet.GetName</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetName</servlet-name>
+        <url-pattern>/GetName.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetRealTime</servlet-name>
+        <servlet-class>com.ict.servlet.GetRealTime</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetRealTime</servlet-name>
+        <url-pattern>/GetRealTime.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>GetNodeState</servlet-name>
+    <servlet-class>com.ict.servlet.GetNodeState</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetNodeState</servlet-name>
+        <url-pattern>/GetNodeState.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Curtain</servlet-name>
+        <servlet-class>com.ict.servlet.Curtain</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Curtain</servlet-name>
+        <url-pattern>/Curtain.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RFID</servlet-name>
+        <servlet-class>com.ict.servlet.RFID</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RFID</servlet-name>
+        <url-pattern>/RFID.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetAir</servlet-name>
+        <servlet-class>com.ict.servlet.GetAir</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetAir</servlet-name>
+        <url-pattern>/GetAir.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetAir</servlet-name>
+        <servlet-class>com.ict.servlet.SetAir</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetAir</servlet-name>
+        <url-pattern>/SetAir.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetTV</servlet-name>
+        <servlet-class>com.ict.servlet.SetTV</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetTV</servlet-name>
+        <url-pattern>/SetTV.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetProjector</servlet-name>
+        <servlet-class>com.ict.servlet.SetProjector</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetProjector</servlet-name>
+        <url-pattern>/SetProjector.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetRfidData</servlet-name>
+        <servlet-class>com.ict.servlet.GetRfidData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetRfidData</servlet-name>
+        <url-pattern>/GetRfidData.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SwitchVoice</servlet-name>
+        <servlet-class>com.ict.servlet.SwitchVoice</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SwitchVoice</servlet-name>
+        <url-pattern>/SwitchVoice.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LEDVoice</servlet-name>
+        <servlet-class>com.ict.servlet.LEDVoice</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LEDVoice</servlet-name>
+        <url-pattern>/LEDVoice.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ColorVoice</servlet-name>
+        <servlet-class>com.ict.servlet.ColorVoice</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ColorVoice</servlet-name>
+        <url-pattern>/ColorVoice.do</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>/index01.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

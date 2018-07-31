@@ -1,0 +1,126 @@
+body, div, a, img, p, form, h1, h2, h3, h4, h5, h6, input, textarea, ul, li, dt, dd, dl {
+	margin:0;
+	padding:0;
+}
+body {
+	background:url(../Images/background.png)
+   /* background: #fff;*/
+}
+#logo, #nav, #banner, #content, #footer {
+	width:1280px;
+	margin:0 auto;
+}
+#logo {
+	height:84px;
+}
+#logoLink {
+	display:block;
+	width:240px;
+	height:60px;
+	background:url(../Images/logo240_60_black.png) no-repeat;
+	float:left;
+	margin-top:20px;
+}
+#nav {
+	margin-top:5px;
+	height:42px;
+	background:url(../Images/2.png);
+}
+#nav ul {
+	height:42px;
+	list-style:none;
+
+}
+#nav ul li {
+	height:42px;
+	float:left;
+	list-style:none;
+	line-height:40px;
+	text-align:center;
+	padding:0 15px;
+
+}
+#nav ul li a {
+	display:block;
+	height:42px;
+	color:#fff;
+	padding:0 30px;
+	line-height:42px;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Arial;
+	text-decoration:none;
+	float:left;
+
+}
+#nav ul li a:hover {
+	background:url(../Images/1.png);
+	color:#fff;
+	text-decoration:none;
+}
+#content {
+}
+#content #contentL, #content #contentR {
+	float:left;
+	padding:15px;
+	height:700px;
+}
+#contentL {
+	width:836px;
+    /*background: #fff;*/
+    margin-top:20px;
+}
+#contentR {
+	width:384px;
+    color:#fff;
+    margin-top:20px;
+	background:url(../Images/xinxi.png);
+}
+.content0 {
+	width:200px;
+	height:200px;
+	float:left;
+	margin:10px 0 7px 5px;
+}
+.content00 {
+	width:160px;
+	height:160px;
+	/*background:#09F;*/
+	margin:0 auto;
+}
+.content01 {
+	width:auto;
+	height:25px;
+	margin:0 auto;
+    text-align:center;
+}
+
+.content01 p input[type="button"]{
+    width:80px;
+    height:25px;
+    background: url("../Images/bg.png") no-repeat left top;
+    border:0;
+    cursor: pointer;
+}
+
+/*以下为节点系统独有*/
+.contentUp{
+    width:830px;
+    height:20px;
+    margin-top: 10px;
+}
+.contentTitle{
+    width:600px;
+    height:20px;
+    float:left;
+    color: #fff;
+    background: url(../Images/contentTitle.png);
+}
+.contentButton{
+    width:200px;
+    height:20px;
+    float:left;
+
+    font-size: 16px;
+}
+
